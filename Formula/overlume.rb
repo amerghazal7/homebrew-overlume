@@ -2,13 +2,13 @@
 # Copyright 2026 Amer Ghazal
 #
 # Binary formula over the macOS universal2 tar.gz; rendered by tools/release/publish_homebrew.sh
-# (1.0.0, https://github.com/amerghazal7/overlume/releases/download/v1.0.0/overlume-1.0.0-macos-universal.tar.gz, df7b6127bacc670bee4125191196540a80b244854ac23d1ab724f0718e46ac97).
+# (1.1.0, https://github.com/amerghazal7/overlume/releases/download/v1.1.0/overlume-1.1.0-macos-universal.tar.gz, 4755f98998827849cbc181368f845d82d0a4f59cce11e10543c4943342bc3a55).
 class Overlume < Formula
   desc "Real-time robot-scene rendering library behind a POD-only C++ API"
   homepage "https://github.com/amerghazal7/overlume"
-  url "https://github.com/amerghazal7/overlume/releases/download/v1.0.0/overlume-1.0.0-macos-universal.tar.gz"
-  version "1.0.0"
-  sha256 "df7b6127bacc670bee4125191196540a80b244854ac23d1ab724f0718e46ac97"
+  url "https://github.com/amerghazal7/overlume/releases/download/v1.1.0/overlume-1.1.0-macos-universal.tar.gz"
+  version "1.1.0"
+  sha256 "4755f98998827849cbc181368f845d82d0a4f59cce11e10543c4943342bc3a55"
   license "Apache-2.0"
 
   depends_on macos: :ventura
